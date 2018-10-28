@@ -6,13 +6,13 @@ require "pry"
 #     @word = word
 #   end
 #   def make_word
-#     puts "What is the word? Player 2 look away..."
+#     puts "What is the word? Player 2 look away... "
 #     word = gets
 #   end
 # end
 
 class MysteryWordGame
-  def initialize
+  def  initialize
     @lives = 3
     @word = ""
     @reveal_word = ""
